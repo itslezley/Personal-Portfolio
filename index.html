@@ -9,6 +9,9 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/mediaqueries.css" />
+    <script>
+
+    </script>
   </head>
   <body>
     <nav class="image-nav">
@@ -16,13 +19,14 @@
         <img src="images/logo.png" alt="UL Siphugu profile picture"/>
       </a>
     </nav>
-    <nav class="link-nav">
+    <nav id="link-nav" class="link-nav">
       <ul>
         <li> <a href="#about">About</a> </li>
         <li> <a href="#myexperience">Experience</a></li>
         <li> <a href="#skills">Skills</a> </li>
         <li>  <a href="#myprojects">Projects</a></li>
         <li>  <a href="#contact">Contact</a></li>
+        <li> <a href="javascript:void(0);" class="icon" onclick="navbar()"> <img src="images/menu.png" style="height: 45px;"/> </a> </li>
       </ul>
     </nav>
 
@@ -241,5 +245,17 @@
       </p>
 
     </footer>
+
+    <script>
+      function navbar() {
+  var x = document.getElementById("link-nav");
+  if (x.className === "link-nav") {
+    x.className += " responsive";
+  } else {
+    x.className = "link-nav";
+  }
+}
+      
+    </script>
   </body>
 </html>

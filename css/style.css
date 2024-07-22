@@ -56,6 +56,10 @@ nav{
  
 }
 
+.icon{
+  display: none;
+}
+
 
 /* dvh-dynamic viewport height    */
 section{

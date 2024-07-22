@@ -1,0 +1,197 @@
+@media only screen and (min-width: 600px) 
+{
+    nav{
+        display: block;
+    }
+    .link-nav a{
+        display: none;
+    }
+   .link-nav a.icon{
+    float: right;
+    display: block;
+   }
+}
+
+@media screen and (max-width:600px) {
+/*
+  section{
+    height: 0dvh;
+  }*/
+    .link-nav.responsive {position: relative;}
+    .link-nav.responsive a.icon{
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .link-nav.responsive a{
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    
+    .link-nav a{
+        display: none;
+    }
+
+
+   .link-nav a.icon{
+    float: right;
+    display: flex;
+    top: 0;
+    right: 0;
+    position: absolute;
+   }
+
+   /*working with the icon */
+.image-div{
+    display: block;
+    width: 100%;
+    text-align: center;
+    height: fit-content;
+  }
+  
+  .image-div img{
+    margin-left: auto;
+    margin-right: 10px;
+    height: 1%;
+    width: 180px;
+    margin-top: 10px;
+  }
+  
+  .text-div{
+    width: 100%;
+    display: flex;
+    text-align: center;
+  }
+  
+  #texts{
+    width: 100%;
+  }
+  
+  #hello-text{
+    margin-top: 20px;
+  }
+  
+  .text-div button{
+    margin-left: 0%;
+  }
+  
+  /**/
+  .icons{
+    margin-left: 0%;
+  }
+
+
+  /* my experience page*/
+.left_div{
+  display: block;
+  width: 100%;
+  float: none;
+}
+
+.left_div img{
+  margin-left: 0%;
+  margin-top: 8px;
+}
+
+.right_div{
+  display: block;
+  width: 100%;
+  float: none;
+  text-align: center;
+  justify-content: center;
+}
+.right_div h6{
+  font-size: 10px;
+  color: var(--text-soft-grey);
+  padding-left: 0%;
+}
+
+.box{
+  height: 130px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 13px;
+}
+
+.flex_container{
+  display: block;
+  padding: 10px 0px;
+}
+/**/
+
+.skill_div{
+  display: block;
+}
+.skill_div  li{
+  display: inline-table;
+  text-decoration: dotted;
+  padding: 30px;
+}
+
+.skill_div{
+  display: inline;
+}
+.skill_div  li{
+  display: inline-table;
+  text-decoration: dotted;
+  padding: 30px;
+}
+
+
+/*Contact me*/
+
+#myprojects{
+  height: 200dvh;
+}
+
+#contact{
+  height: 70dvh;
+  text-align: center;
+}
+
+#contact img{
+  margin-top: 90px;
+
+}
+.centered_div h4{
+  text-align: center;
+  font-size: 10px;
+  color: var(--text-soft-grey);
+ }
+
+ .centered_div{
+  padding: 0px;
+  margin-top: 20px;
+ }
+ .centered_div h1{
+  color: var(--text-grey);
+  font-size: 20px;
+ }
+
+ .contact_div{
+  display: block;
+   width: 60%;
+   height: 30px;
+ }
+
+ .contact_div a{
+  text-decoration: none;
+  color: var(--text-shadow);
+  padding-right: 6px;
+  font-size: 10px;
+ }
+ 
+ .contact_div i{
+  padding-left: 5px;
+ }
+
+/*footer*/
+
+.bottom-nav{
+  display: none;
+}
+
+  
+}
